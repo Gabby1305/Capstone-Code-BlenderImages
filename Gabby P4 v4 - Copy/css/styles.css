@@ -1,0 +1,134 @@
+/* https://css-tricks.com/all-about-floats/ */
+* {
+    box-sizing: border-box; 
+    /* word-wrap: break-word; */
+
+}
+
+html {
+    height: 100vh;
+}
+body {
+    margin: auto auto;
+}
+
+.container {
+    margin: auto auto;
+    width:400px;
+    background-color: #6e7b8b;
+    align-content: center;
+    
+    /*background-color: red;*/  
+}
+/* Layout */
+.card {
+    clear: both;
+    height: 400px;
+    width: 800px;
+    align-content: center;
+}
+
+
+.img-left {   /* Image class */
+    position:relative;
+    float: left;
+    height: 300px;
+    width: 550px;
+    align-content: center;
+}
+
+.img-right {   /* Image class */
+    position:relative;
+    float: right;
+    height: 300px;
+    width: 550px;
+    align-content: center;
+}
+
+
+.content {
+    position: relative;
+    float: left;
+    width:550px;
+    height: 250px;
+    padding: 20px;
+    margin: auto auto;
+    
+    
+    /* For text */
+    font-family: 'Franklin Gothic Medium';
+    /*padding: 30px;*/
+    font-size: 40px;
+    color: rgb(0, 0, 0)7;
+}
+
+html {
+    background: #b2d3c2;
+
+}
+
+nav {
+    margin: auto auto;
+}
+footer {
+    clear: both;
+    height: 400px; 
+    width: 400px;
+    margin: auto auto;
+ }
+
+
+.box {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+ ul {
+  display: none;
+  text-decoration: none;
+ 
+ }
+
+ li {
+     padding: 40px;
+     border: 40px;
+     list-style: none;
+ }
+
+ a {
+    /*position: relative;*/
+    float: left;
+    margin: auto auto;
+    width:650px;
+    height: 650px;
+    padding: 20px;
+    margin: auto auto;
+
+
+    
+    
+    /* For text */
+    font-family: 'Franklin Gothic Medium';
+    /*padding: 30px;*/
+    font-size: 80px;
+    color: rgb(0, 0, 0)7;
+ }
+
+ .a2 {
+    /*position: relative;*/
+    float: left;
+    width:700px;
+    height: 650px;
+    padding: 20px;
+    margin: auto auto;
+
+
+    
+    
+    /* For text */
+    font-family: 'Franklin Gothic Medium';
+    /*padding: 30px;*/
+    font-size: 60px;
+    color: rgb(0, 0, 0)7;
+ }
